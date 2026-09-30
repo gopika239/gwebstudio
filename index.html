@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GWeb Studio | Premium Freelance Web Design</title>
+    <meta name="description" content="GWeb Studio is a modern freelance web design studio creating premium, responsive and business-focused websites.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <img src="assets/logo.jpg" alt="GWeb Studio Logo" class="logo-img">
+                <span class="logo-text">GWeb Studio</span>
+            </a>
+            
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+
+            <a href="#contact" class="btn btn-primary nav-cta">Let's Work Together</a>
+
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobile-menu">
+            <a href="#home" class="mobile-link">Home</a>
+            <a href="#about" class="mobile-link">About</a>
+            <a href="#skills" class="mobile-link">Skills</a>
+            <a href="#services" class="mobile-link">Services</a>
+            <a href="#projects" class="mobile-link">Projects</a>
+            <a href="#testimonials" class="mobile-link">Testimonials</a>
+            <a href="#contact" class="mobile-link">Contact</a>
+            <a href="#contact" class="btn btn-primary mobile-cta">Let's Work Together</a>
+        </div>
+    </nav>
+
+    <!-- ANIMATED HERO SECTION -->
+    <section id="home" class="animated-hero">
+        <!-- Background image with dark overlay -->
+        <div class="hero-bg" id="heroBg">
+            <div class="hero-overlay"></div>
+        </div>
+
+        <!-- Floating particles -->
+        <div class="hero-particles" aria-hidden="true">
+            <span class="particle p1"></span>
+            <span class="particle p2"></span>
+            <span class="particle p3"></span>
+            <span class="particle p4"></span>
+            <span class="particle p5"></span>
+            <span class="particle p6"></span>
+        </div>
+
+        <!-- Hero content -->
+        <div class="animated-hero-content">
+            <!-- Availability badge -->
+            <div class="hero-badge" data-animate="fade-up" style="--delay: 0.1s">
+                <span class="pulse"></span>
+                AVAILABLE FOR FREELANCE PROJECTS
+            </div>
+
+            <!-- Main headline -->
+            <h1 class="animated-hero-title" data-animate="fade-up" style="--delay: 0.25s">
+                We Design Websites That Make
+                <span class="text-gradient-animated">Businesses Stand Out.</span>
+            </h1>
+
+            <!-- Sub-description -->
+            <p class="animated-hero-desc" data-animate="fade-up" style="--delay: 0.4s">
+                Hi, I'm <strong>GOPIKA</strong>. GWeb Studio creates modern, responsive and 
+                conversion-focused websites that help businesses build a stronger digital presence.
+            </p>
+
+            <!-- CTA Buttons — glass style -->
+            <div class="animated-hero-ctas" data-animate="fade-up" style="--delay: 0.55s">
+                <a href="#projects" class="glass-btn glass-btn-primary">
+                    <i class="fa-solid fa-eye"></i>
+                    View Our Work
+                </a>
+                <a href="#contact" class="glass-btn glass-btn-secondary">
+                    <i class="fa-solid fa-rocket"></i>
+                    Start a Project
+                </a>
+            </div>
+
+            <!-- Scroll indicator -->
+            <div class="animated-scroll-indicator" data-animate="fade-up" style="--delay: 0.7s">
+                <a href="#about" aria-label="Scroll to About section">
+                    <span>Scroll to explore</span>
+                    <span class="scroll-arrow-ring">
+                        <i class="fa-solid fa-arrow-down"></i>
+                    </span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Decorative corner accent -->
+        <div class="hero-corner-accent" aria-hidden="true"></div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid-centered">
+                <div class="about-text-centered">
+                    <h2 class="section-title">Designing Digital Experiences <span class="text-gradient">That Matter.</span></h2>
+                    <p class="section-desc">GWeb Studio is a freelance web design studio by <strong>GOPIKA</strong> focused on creating modern, responsive and visually engaging websites for businesses and personal brands. We combine clean design, thoughtful user experience and modern web technologies to create websites that look professional and work effectively across every device.</p>
+                    
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <h3 class="stat-number counter" data-target="10" data-suffix="+">0+</h3>
+                            <p class="stat-label">Projects Designed</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="stat-number counter" data-target="100" data-suffix="%">0%</h3>
+                            <p class="stat-label">Responsive</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="stat-number">Modern</h3>
+                            <p class="stat-label">Design Approach</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="stat-number counter" data-target="24" data-suffix="/7">0/7</h3>
+                            <p class="stat-label">Client Communication</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title text-center">Skills & <span class="text-gradient">Expertise</span></h2>
+            <p class="section-desc text-center" style="margin: 0 auto 3rem;">A curated set of skills that power every project I deliver.</p>
+
+            <div class="hover-cards-group" id="skillCards">
+
+                <!-- Card 1: Web Design -->
+                <div class="hc-card" tabindex="0" aria-label="Web Design, UI & UX"
+                    style="background-image: url('https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&q=80');">
+                    <div class="hc-overlay"></div>
+                    <div class="hc-content">
+                        <p class="hc-subtitle">UI &middot; UX &middot; Responsive</p>
+                        <h3 class="hc-title">Web Design</h3>
+                        <ul class="hc-list">
+                            <li>UI Design</li>
+                            <li>UX Design</li>
+                            <li>Responsive Design</li>
+                            <li>Landing Pages</li>
+                            <li>Business Websites</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Card 2: Frontend Development -->
+                <div class="hc-card" tabindex="0" aria-label="Frontend Development, HTML CSS JS"
+                    style="background-image: url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800&q=80');">
+                    <div class="hc-overlay"></div>
+                    <div class="hc-content">
+                        <p class="hc-subtitle">HTML &middot; CSS &middot; JS</p>
+                        <h3 class="hc-title">Frontend Dev</h3>
+                        <ul class="hc-list">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript</li>
+                            <li>Responsive Dev</li>
+                            <li>Animations</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Card 3: Design Tools -->
+                <div class="hc-card" tabindex="0" aria-label="Design Tools, Figma Canva Photoshop"
+                    style="background-image: url('https://images.unsplash.com/photo-1558655146-d09347e92766?w=800&q=80');">
+                    <div class="hc-overlay"></div>
+                    <div class="hc-content">
+                        <p class="hc-subtitle">Figma &middot; Canva &middot; PS</p>
+                        <h3 class="hc-title">Design Tools</h3>
+                        <ul class="hc-list">
+                            <li>Figma</li>
+                            <li>Canva</li>
+                            <li>Adobe Photoshop</li>
+                            <li>AI Design Tools</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Card 4: Website & SEO -->
+                <div class="hc-card" tabindex="0" aria-label="Website Optimization and SEO"
+                    style="background-image: url('https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=800&q=80');">
+                    <div class="hc-overlay"></div>
+                    <div class="hc-content">
+                        <p class="hc-subtitle">SEO &middot; Mobile &middot; Deploy</p>
+                        <h3 class="hc-title">Website</h3>
+                        <ul class="hc-list">
+                            <li>SEO Basics</li>
+                            <li>Website Optimization</li>
+                            <li>Mobile-First Design</li>
+                            <li>Deployment</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title text-center">What GWeb Studio Can <span class="text-gradient">Build For You</span></h2>
+        <p class="section-desc text-center" style="margin: 0 auto 1.5rem;">A showcase of everything GWeb Studio creates for clients.</p>
+        </div>
+
+
+        <div class="img-strip-outer">
+            <div class="img-strip-track">
+                <div class="img-strip-inner">
+                    <div class="img-strip-item img-label" data-label="Business Websites"><img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=480&h=300&fit=crop&q=85" alt="Business Website" loading="lazy"></div>
+                    <div class="img-strip-item img-label" data-label="Landing Pages"><img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=480&h=300&fit=crop&q=85" alt="Landing Page" loading="lazy"></div>
+                    <div class="img-strip-item img-label" data-label="Portfolio Websites"><img src="assets/img_portfolio.jpg" alt="Portfolio" loading="lazy"></div>
+                    <div class="img-strip-item img-label" data-label="E-Commerce"><img src="assets/img_ecommerce.jpg" alt="E-Commerce" loading="lazy"></div>
+                    <div class="img-strip-item img-label" data-label="UI Design"><img src="assets/img_ui.jpg" alt="UI Design" loading="lazy"></div>
+                    <div class="img-strip-item img-label" data-label="Website Redesign"><img src="assets/img_redesign.jpg" alt="Redesign" loading="lazy"></div>
+                    <div class="img-strip-item img-label" data-label="Responsive Design"><img src="assets/img_responsive.jpg" alt="Responsive" loading="lazy"></div>
+                    <div class="img-strip-item img-label" data-label="Frontend Dev"><img src="assets/img_frontend.jpg" alt="Frontend" loading="lazy"></div>
+                    <div class="img-strip-item img-label" data-label="SEO & Speed"><img src="assets/img_seo.jpg" alt="SEO" loading="lazy"></div>
+                    <div class="img-strip-item img-label" data-label="Design Tools"><img src="https://images.unsplash.com/photo-1558655146-d09347e92766?w=480&h=300&fit=crop&q=85" alt="Design Tools" loading="lazy"></div>
+                    <!-- Duplicated for seamless infinite loop -->
+                    <div class="img-strip-item img-label" data-label="Business Websites"><img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=480&h=300&fit=crop&q=85" alt="Business Website" loading="lazy"></div>
+                    <div class="img-strip-item img-label" data-label="Landing Pages"><img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=480&h=300&fit=crop&q=85" alt="Landing Page" loading="lazy"></div>
+                    <div class="img-strip-item img-label" data-label="Portfolio Websites"><img src="assets/img_portfolio.jpg" alt="Portfolio" loading="lazy"></div>
+                    <div class="img-strip-item img-label" data-label="E-Commerce"><img src="assets/img_ecommerce.jpg" alt="E-Commerce" loading="lazy"></div>
+                    <div class="img-strip-item img-label" data-label="UI Design"><img src="assets/img_ui.jpg" alt="UI Design" loading="lazy"></div>
+                    <div class="img-strip-item img-label" data-label="Website Redesign"><img src="assets/img_redesign.jpg" alt="Redesign" loading="lazy"></div>
+                    <div class="img-strip-item img-label" data-label="Responsive Design"><img src="assets/img_responsive.jpg" alt="Responsive" loading="lazy"></div>
+                    <div class="img-strip-item img-label" data-label="Frontend Dev"><img src="assets/img_frontend.jpg" alt="Frontend" loading="lazy"></div>
+                    <div class="img-strip-item img-label" data-label="SEO & Speed"><img src="assets/img_seo.jpg" alt="SEO" loading="lazy"></div>
+                    <div class="img-strip-item img-label" data-label="Design Tools"><img src="https://images.unsplash.com/photo-1558655146-d09347e92766?w=480&h=300&fit=crop&q=85" alt="Design Tools" loading="lazy"></div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title text-center">Selected <span class="text-gradient">Projects</span></h2>
+            <p class="section-desc text-center mb-5">A selection of recent works</p>
+            
+            <div class="projects-grid projects-grid-2col">
+                <!-- Project 1 -->
+                <a href="https://clinic-website-six-sandy.vercel.app/" target="_blank" class="project-card">
+                    <div class="project-img-wrapper">
+                        <div class="project-overlay">
+                            <span>View Live Project <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                        </div>
+                        <img src="assets/proj_dental.jpg" alt="Dental Clinic Website" class="project-screenshot">
+                    </div>
+                    <div class="project-info">
+                        <h3>Dental Clinic Website</h3>
+                        <p>Modern and responsive healthcare website</p>
+                    </div>
+                </a>
+
+                <!-- Project 2 -->
+                <a href="https://vet-and-pet-clinic.vercel.app/" target="_blank" class="project-card">
+                    <div class="project-img-wrapper">
+                        <div class="project-overlay">
+                            <span>View Live Project <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                        </div>
+                        <img src="assets/proj_vet.jpg" alt="Vet and Pet Clinic Website" class="project-screenshot">
+                    </div>
+                    <div class="project-info">
+                        <h3>Vet &amp; Pet Clinic</h3>
+                        <p>Compassionate care showcased through clean design</p>
+                    </div>
+                </a>
+
+                <!-- Project 3 -->
+                <a href="https://interior-sample-beta.vercel.app/" target="_blank" class="project-card">
+                    <div class="project-img-wrapper">
+                        <div class="project-overlay">
+                            <span>View Live Project <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                        </div>
+                        <img src="assets/proj_interior.jpg" alt="Interior Design Studio Website" class="project-screenshot">
+                    </div>
+                    <div class="project-info">
+                        <h3>Interior Design Studio</h3>
+                        <p>Elegant portfolio for interior designers</p>
+                    </div>
+                </a>
+
+                <!-- Project 4 -->
+                <a href="https://photo-studio-neon-chi.vercel.app/" target="_blank" class="project-card">
+                    <div class="project-img-wrapper">
+                        <div class="project-overlay">
+                            <span>View Live Project <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                        </div>
+                        <img src="assets/proj_photo.jpg" alt="Photo Studio Website" class="project-screenshot">
+                    </div>
+                    <div class="project-info">
+                        <h3>Photo Studio</h3>
+                        <p>Visually striking photography portfolio</p>
+                    </div>
+                </a>
+
+                <!-- Project 5 -->
+                <a href="https://hospital-sigma-ten.vercel.app/" target="_blank" class="project-card">
+                    <div class="project-img-wrapper">
+                        <div class="project-overlay">
+                            <span>View Live Project <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                        </div>
+                        <img src="assets/proj_hospital.jpg" alt="Hospital Website" class="project-screenshot">
+                    </div>
+                    <div class="project-info">
+                        <h3>Hospital Website</h3>
+                        <p>Comprehensive and trustworthy medical platform</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title text-center">What Clients <span class="text-gradient">Say About Us</span></h2>
+            <p class="section-desc text-center" style="margin: 0 auto 3rem;">Real feedback from real clients across Tamil Nadu.</p>
+        </div>
+
+        <!-- 3D Marquee Stage -->
+        <div class="testi-stage" aria-label="Client testimonials" role="region">
+            <div class="testi-inner">
+
+                <!-- Column 1: scroll down -->
+                <div class="testi-col">
+                    <div class="testi-track testi-down">
+                        <div class="testi-card"><div class="testi-header"><img src="https://i.pravatar.cc/40?img=47" alt="Karthik Raja" class="testi-avatar"><div><strong>Karthik Raja</strong><span>📍 Chennai, TN</span><em>@karthik_raj</em></div></div><p>"GWeb Studio delivered an outstanding website for my business. The design is clean, modern and exactly what I needed in Chennai's competitive market!"</p></div>
+                        <div class="testi-card"><div class="testi-header"><img src="https://i.pravatar.cc/40?img=5" alt="Priya Lakshmi" class="testi-avatar"><div><strong>Priya Lakshmi</strong><span>📍 Coimbatore, TN</span><em>@priya_lak</em></div></div><p>"My boutique's website looks absolutely beautiful! Gopika understood my vision perfectly. Clients in Coimbatore keep complimenting the design."</p></div>
+                        <div class="testi-card"><div class="testi-header"><img src="https://i.pravatar.cc/40?img=12" alt="Murugan Selvam" class="testi-avatar"><div><strong>Murugan Selvam</strong><span>📍 Madurai, TN</span><em>@murugan_s</em></div></div><p>"Best web designer in Tamil Nadu! My dental clinic website in Madurai now gets so many enquiries online. Truly professional work."</p></div>
+                        <div class="testi-card"><div class="testi-header"><img src="https://i.pravatar.cc/40?img=33" alt="Divya Anand" class="testi-avatar"><div><strong>Divya Anand</strong><span>📍 Salem, TN</span><em>@divya_anand</em></div></div><p>"The landing page GWeb Studio built for my Salem fashion store is stunning. Sales have improved significantly after launching the new site!"</p></div>
+                        <!-- Duplicate for seamless loop -->
+                        <div class="testi-card"><div class="testi-header"><img src="https://i.pravatar.cc/40?img=47" alt="Karthik Raja" class="testi-avatar"><div><strong>Karthik Raja</strong><span>📍 Chennai, TN</span><em>@karthik_raj</em></div></div><p>"GWeb Studio delivered an outstanding website for my business. The design is clean, modern and exactly what I needed in Chennai's competitive market!"</p></div>
+                        <div class="testi-card"><div class="testi-header"><img src="https://i.pravatar.cc/40?img=5" alt="Priya Lakshmi" class="testi-avatar"><div><strong>Priya Lakshmi</strong><span>📍 Coimbatore, TN</span><em>@priya_lak</em></div></div><p>"My boutique's website looks absolutely beautiful! Gopika understood my vision perfectly. Clients in Coimbatore keep complimenting the design."</p></div>
+                        <div class="testi-card"><div class="testi-header"><img src="https://i.pravatar.cc/40?img=12" alt="Murugan Selvam" class="testi-avatar"><div><strong>Murugan Selvam</strong><span>📍 Madurai, TN</span><em>@murugan_s</em></div></div><p>"Best web designer in Tamil Nadu! My dental clinic website in Madurai now gets so many enquiries online. Truly professional work."</p></div>
+                        <div class="testi-card"><div class="testi-header"><img src="https://i.pravatar.cc/40?img=33" alt="Divya Anand" class="testi-avatar"><div><strong>Divya Anand</strong><span>📍 Salem, TN</span><em>@divya_anand</em></div></div><p>"The landing page GWeb Studio built for my Salem fashion store is stunning. Sales have improved significantly after launching the new site!"</p></div>
+                    </div>
+                </div>
+
+                <!-- Column 2: scroll up -->
+                <div class="testi-col">
+                    <div class="testi-track testi-up">
+                        <div class="testi-card"><div class="testi-header"><img src="https://i.pravatar.cc/40?img=9" alt="Ramesh Kumar" class="testi-avatar"><div><strong>Ramesh Kumar</strong><span>📍 Trichy, TN</span><em>@ramesh_k</em></div></div><p>"Absolutely stunning design! My Trichy engineering firm's website now looks so professional. Highly recommend GWeb Studio to everyone."</p></div>
+                        <div class="testi-card"><div class="testi-header"><img src="https://i.pravatar.cc/40?img=25" alt="Kavitha Devi" class="testi-avatar"><div><strong>Kavitha Devi</strong><span>📍 Tirunelveli, TN</span><em>@kavitha_d</em></div></div><p>"Love the attention to detail. My school's website in Tirunelveli is now beautifully crafted. Parents and students find it very easy to navigate."</p></div>
+                        <div class="testi-card"><div class="testi-header"><img src="https://i.pravatar.cc/40?img=14" alt="Senthil Nathan" class="testi-avatar"><div><strong>Senthil Nathan</strong><span>📍 Erode, TN</span><em>@senthil_n</em></div></div><p>"Impressive performance on mobile! My textile business site in Erode loads fast and looks great on every screen. Excellent work by Gopika."</p></div>
+                        <div class="testi-card"><div class="testi-header"><img src="https://i.pravatar.cc/40?img=60" alt="Meena Sundaram" class="testi-avatar"><div><strong>Meena Sundaram</strong><span>📍 Vellore, TN</span><em>@meena_sun</em></div></div><p>"Our hospital in Vellore saw a rise in appointment bookings after the new website. The design is trustworthy and easy to use. Amazing results!"</p></div>
+                        <!-- Duplicate for seamless loop -->
+                        <div class="testi-card"><div class="testi-header"><img src="https://i.pravatar.cc/40?img=9" alt="Ramesh Kumar" class="testi-avatar"><div><strong>Ramesh Kumar</strong><span>📍 Trichy, TN</span><em>@ramesh_k</em></div></div><p>"Absolutely stunning design! My Trichy engineering firm's website now looks so professional. Highly recommend GWeb Studio to everyone."</p></div>
+                        <div class="testi-card"><div class="testi-header"><img src="https://i.pravatar.cc/40?img=25" alt="Kavitha Devi" class="testi-avatar"><div><strong>Kavitha Devi</strong><span>📍 Tirunelveli, TN</span><em>@kavitha_d</em></div></div><p>"Love the attention to detail. My school's website in Tirunelveli is now beautifully crafted. Parents and students find it very easy to navigate."</p></div>
+                        <div class="testi-card"><div class="testi-header"><img src="https://i.pravatar.cc/40?img=14" alt="Senthil Nathan" class="testi-avatar"><div><strong>Senthil Nathan</strong><span>📍 Erode, TN</span><em>@senthil_n</em></div></div><p>"Impressive performance on mobile! My textile business site in Erode loads fast and looks great on every screen. Excellent work by Gopika."</p></div>
+                        <div class="testi-card"><div class="testi-header"><img src="https://i.pravatar.cc/40?img=60" alt="Meena Sundaram" class="testi-avatar"><div><strong>Meena Sundaram</strong><span>📍 Vellore, TN</span><em>@meena_sun</em></div></div><p>"Our hospital in Vellore saw a rise in appointment bookings after the new website. The design is trustworthy and easy to use. Amazing results!"</p></div>
+                    </div>
+                </div>
+
+                <!-- Column 3: scroll down -->
+                <div class="testi-col">
+                    <div class="testi-track testi-down" style="animation-delay: -5s;">
+                        <div class="testi-card"><div class="testi-header"><img src="https://i.pravatar.cc/40?img=18" alt="Arjun Venkat" class="testi-avatar"><div><strong>Arjun Venkat</strong><span>📍 Thanjavur, TN</span><em>@arjun_v</em></div></div><p>"My portfolio site built by GWeb Studio gets compliments constantly. Smooth animations and clean design make it stand out in Thanjavur's market."</p></div>
+                        <div class="testi-card"><div class="testi-header"><img src="https://i.pravatar.cc/40?img=41" alt="Nithya Krishnan" class="testi-avatar"><div><strong>Nithya Krishnan</strong><span>📍 Thoothukudi, TN</span><em>@nithya_k</em></div></div><p>"Very professional and smooth process from start to finish. Got exactly what I asked for my travel agency in Thoothukudi. Wonderful experience!"</p></div>
+                        <div class="testi-card"><div class="testi-header"><img src="https://i.pravatar.cc/40?img=52" alt="Vijay Mohan" class="testi-avatar"><div><strong>Vijay Mohan</strong><span>📍 Namakkal, TN</span><em>@vijay_m</em></div></div><p>"The SEO improvements for my Namakkal transport company were worth every rupee. Business enquiries online have tripled since launch!"</p></div>
+                        <div class="testi-card"><div class="testi-header"><img src="https://i.pravatar.cc/40?img=31" alt="Saranya Prabhu" class="testi-avatar"><div><strong>Saranya Prabhu</strong><span>📍 Tiruppur, TN</span><em>@saranya_p</em></div></div><p>"My garment export website looks so elegant now. Delivered ahead of schedule and the communication throughout was top-notch. Thank you Gopika!"</p></div>
+                        <!-- Duplicate for seamless loop -->
+                        <div class="testi-card"><div class="testi-header"><img src="https://i.pravatar.cc/40?img=18" alt="Arjun Venkat" class="testi-avatar"><div><strong>Arjun Venkat</strong><span>📍 Thanjavur, TN</span><em>@arjun_v</em></div></div><p>"My portfolio site built by GWeb Studio gets compliments constantly. Smooth animations and clean design make it stand out in Thanjavur's market."</p></div>
+                        <div class="testi-card"><div class="testi-header"><img src="https://i.pravatar.cc/40?img=41" alt="Nithya Krishnan" class="testi-avatar"><div><strong>Nithya Krishnan</strong><span>📍 Thoothukudi, TN</span><em>@nithya_k</em></div></div><p>"Very professional and smooth process from start to finish. Got exactly what I asked for my travel agency in Thoothukudi. Wonderful experience!"</p></div>
+                        <div class="testi-card"><div class="testi-header"><img src="https://i.pravatar.cc/40?img=52" alt="Vijay Mohan" class="testi-avatar"><div><strong>Vijay Mohan</strong><span>📍 Namakkal, TN</span><em>@vijay_m</em></div></div><p>"The SEO improvements for my Namakkal transport company were worth every rupee. Business enquiries online have tripled since launch!"</p></div>
+                        <div class="testi-card"><div class="testi-header"><img src="https://i.pravatar.cc/40?img=31" alt="Saranya Prabhu" class="testi-avatar"><div><strong>Saranya Prabhu</strong><span>📍 Tiruppur, TN</span><em>@saranya_p</em></div></div><p>"My garment export website looks so elegant now. Delivered ahead of schedule and the communication throughout was top-notch. Thank you Gopika!"</p></div>
+                    </div>
+                </div>
+
+                <!-- Column 4: scroll up -->
+                <div class="testi-col">
+                    <div class="testi-track testi-up" style="animation-delay: -12s;">
+                        <div class="testi-card"><div class="testi-header"><img src="https://i.pravatar.cc/40?img=56" alt="Lakshmi Narayanan" class="testi-avatar"><div><strong>Lakshmi Narayanan</strong><span>📍 Dindigul, TN</span><em>@lakshmi_n</em></div></div><p>"My clinic website in Dindigul now looks as premium as our services. Patients always compliment the clean and trustworthy design. Excellent!"</p></div>
+                        <div class="testi-card"><div class="testi-header"><img src="https://i.pravatar.cc/40?img=22" alt="Balaji Subramani" class="testi-avatar"><div><strong>Balaji Subramani</strong><span>📍 Cuddalore, TN</span><em>@balaji_s</em></div></div><p>"Clean, modern and very fast. My startup's website in Cuddalore is everything I needed. GWeb Studio truly understands business needs."</p></div>
+                        <div class="testi-card"><div class="testi-header"><img src="https://i.pravatar.cc/40?img=39" alt="Deepa Rajan" class="testi-avatar"><div><strong>Deepa Rajan</strong><span>📍 Pudukkottai, TN</span><em>@deepa_r</em></div></div><p>"The UI is so intuitive! My customers in Pudukkottai find it very easy to browse and contact us. Appointment bookings have gone up a lot."</p></div>
+                        <div class="testi-card"><div class="testi-header"><img src="https://i.pravatar.cc/40?img=65" alt="Anand Selvakumar" class="testi-avatar"><div><strong>Anand Selvakumar</strong><span>📍 Karur, TN</span><em>@anand_sk</em></div></div><p>"Fantastic value for money! My Karur business website exceeded all expectations. Gopika's work is truly outstanding. Will hire again for sure!"</p></div>
+                        <!-- Duplicate for seamless loop -->
+                        <div class="testi-card"><div class="testi-header"><img src="https://i.pravatar.cc/40?img=56" alt="Lakshmi Narayanan" class="testi-avatar"><div><strong>Lakshmi Narayanan</strong><span>📍 Dindigul, TN</span><em>@lakshmi_n</em></div></div><p>"My clinic website in Dindigul now looks as premium as our services. Patients always compliment the clean and trustworthy design. Excellent!"</p></div>
+                        <div class="testi-card"><div class="testi-header"><img src="https://i.pravatar.cc/40?img=22" alt="Balaji Subramani" class="testi-avatar"><div><strong>Balaji Subramani</strong><span>📍 Cuddalore, TN</span><em>@balaji_s</em></div></div><p>"Clean, modern and very fast. My startup's website in Cuddalore is everything I needed. GWeb Studio truly understands business needs."</p></div>
+                        <div class="testi-card"><div class="testi-header"><img src="https://i.pravatar.cc/40?img=39" alt="Deepa Rajan" class="testi-avatar"><div><strong>Deepa Rajan</strong><span>📍 Pudukkottai, TN</span><em>@deepa_r</em></div></div><p>"The UI is so intuitive! My customers in Pudukkottai find it very easy to browse and contact us. Appointment bookings have gone up a lot."</p></div>
+                        <div class="testi-card"><div class="testi-header"><img src="https://i.pravatar.cc/40?img=65" alt="Anand Selvakumar" class="testi-avatar"><div><strong>Anand Selvakumar</strong><span>📍 Karur, TN</span><em>@anand_sk</em></div></div><p>"Fantastic value for money! My Karur business website exceeded all expectations. Gopika's work is truly outstanding. Will hire again for sure!"</p></div>
+                    </div>
+                </div>
+
+                <!-- Gradient fade overlays -->
+                <div class="testi-fade-top"></div>
+                <div class="testi-fade-bottom"></div>
+                <div class="testi-fade-left"></div>
+                <div class="testi-fade-right"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact-globe-section">
+        <div class="container">
+
+            <!-- Header -->
+            <div class="cg-header">
+                <div class="cg-badge">Contact</div>
+                <h2 class="section-title">Ready to Start Your <span class="text-gradient">Project?</span></h2>
+                <p class="section-desc">We are always looking for ways to improve our services. Let's create something amazing together.</p>
+            </div>
+
+            <!-- Two-column grid -->
+            <div class="cg-grid">
+
+                <!-- LEFT: contact info + globe -->
+                <div class="cg-left">
+                    <h3 class="cg-sub-title">Get in Touch</h3>
+                    <p class="cg-sub-desc">Reach out via any channel below. We typically reply within one business day.</p>
+
+                    <div class="cg-links">
+                        <a href="mailto:lgopika684@gmail.com" class="cg-link">
+                            <span class="cg-link-icon"><i class="fa-solid fa-envelope"></i></span>
+                            lgopika684@gmail.com
+                        </a>
+                        <a href="https://wa.me/916383893357" target="_blank" class="cg-link">
+                            <span class="cg-link-icon"><i class="fa-brands fa-whatsapp"></i></span>
+                            WhatsApp Us
+                        </a>
+                        <a href="mailto:lgopika684@gmail.com" class="cg-link">
+                            <span class="cg-link-icon"><i class="fa-solid fa-headset"></i></span>
+                            Support & Enquiries
+                        </a>
+                    </div>
+
+                    <!-- Globe container -->
+                    <div class="cg-globe-wrap">
+                        <svg id="contact-globe"></svg>
+                        <div class="cg-globe-fade"></div>
+                    </div>
+                </div>
+
+
+                <!-- RIGHT: form -->
+                <div class="cg-form-card">
+                    <h3 class="cg-form-title">Send a Message</h3>
+                    <p class="cg-form-sub">Fill out the form and we'll get back to you promptly.</p>
+
+                    <div class="cg-dots-divider"></div>
+
+                    <form id="enquiry-form" class="cg-form">
+                        <div class="cg-form-row">
+                            <div class="cg-field">
+                                <label>Full Name</label>
+                                <input type="text" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="cg-field">
+                                <label>Business / Brand</label>
+                                <input type="text" id="company" placeholder="Your Business">
+                            </div>
+                        </div>
+                        <div class="cg-field">
+                            <label>Email Address</label>
+                            <input type="email" id="email" placeholder="you@example.com" required>
+                        </div>
+                        <div class="cg-field">
+                            <label>Message</label>
+                            <textarea id="message" placeholder="Tell me about your project..." rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="cg-submit-btn">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            Submit via WhatsApp
+                            <i class="fa-solid fa-arrow-right cg-arrow"></i>
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <img src="assets/logo.jpg" alt="GWeb Studio Logo" class="logo-img">
+                    <span class="logo-text">GWeb Studio</span>
+                </a>
+                <p>Premium freelance web design studio by <strong>GOPIKA</strong>, crafting digital experiences.</p>
+            </div>
+            <div class="footer-links">
+                <div class="f-col">
+                    <h4>Navigation</h4>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#testimonials">Testimonials</a>
+                </div>
+                <div class="f-col">
+                    <h4>Services</h4>
+                    <a href="#services">Web Design</a>
+                    <a href="#services">Landing Pages</a>
+                    <a href="#services">E-Commerce</a>
+                </div>
+                <div class="f-col">
+                    <h4>Social</h4>
+                    <a href="https://www.linkedin.com/in/gopika-l-a69564382?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/gopika239" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 GWeb Studio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
